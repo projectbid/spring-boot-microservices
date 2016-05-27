@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.rohitghatol.microservices.config;
 
 import org.springframework.boot.SpringApplication;
@@ -22,9 +19,9 @@ import org.springframework.context.annotation.ComponentScan;
  * 
  * @author rohitghatol
  */
-@EnableAutoConfiguration
+
+@SpringBootApplication
 @EnableConfigServer
-@ComponentScan
 public class Application {
 	
 	/**
